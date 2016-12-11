@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="#eeeeee"
+        android:padding="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/ivRadiumLogo"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tvRadiumName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="radium name"
+                android:textAllCaps="false"
+                android:textColor="#333333"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                />
+
+            <TextView
+                android:id="@+id/tvRadiumAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="radium name"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                android:textColor="#333333"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

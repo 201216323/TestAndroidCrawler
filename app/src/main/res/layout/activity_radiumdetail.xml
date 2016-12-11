@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvTargetUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee"
+        android:text="网页地址："
+        android:textColor="#333333"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="友情提示：获取到了网页的链接地址，加载github、微信的网址都没有问题，但加载上述链接地址的时候就出现问题，可能是网页的重定向，具体还不清楚"
+        />
+
+    <WebView
+        android:id="@+id/wvRadiumDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        ></WebView>
+</LinearLayout>
